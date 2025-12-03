@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: darkblue; /* Keep dark blue */
+    color: orange; /* Text color */
+    padding: 20px;
+    position: relative;
+}
+
+.header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: darkorange; /* Font color */
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav .dropdown {
+    display: inline-block;
+}
+
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* Dropdown background */
+    color: black; /* Dropdown text color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav .dropdown-content a {
+    color: black; /* Dropdown text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav .dropdown-content a:hover {
+    background-color: #ddd; /* Dropdown item hover color */
+}
+
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Banner Styles */
+.main-banner {
+    background-image: url('https://www.gprec.ac.in/wp-content/uploads/2019/07/gprec-banner1-1024x347.jpg'); /* Replace with your background image URL */
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Changed from top to center for better alignment */
+    padding: 20px;
+}
+
+.main-banner h1 {
+    margin: 0;
+    color: darkorange; /* Ensure text is visible against background */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content img {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+/* Department Page Styles */
+.department-banner {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV92cEHP9vsSDzILyAbP8FK497sViQaaFIQQ&s'); /* Replace with your background image URL */
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    padding: 40px 20px; /* Increased padding for better spacing */
+    color: darkOrange; /* Ensure text is visible against background */
+    text-align: center; /* Center the text */
+}
+
+.department-banner h1 {
+    margin: 0;
+    font-size: 2.5em; /* Adjust font size as needed */
+}
+
+/* Department Content Styles */
+.department-content {
+    padding: 20px;
+}
+
+.department-overview audio,
+.department-overview video {
+    display: block;
+    margin: 20px auto;
+}
+
+.faculty {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center faculty members */
+}
+
+.faculty-member {
+    text-align: center;
+}
+
+.faculty-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: darkblue; /* Keep dark blue */
+    color: orange; /* Font color */
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure full-width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.social-media a, .quick-links a {
+    color: orange; /* Font color */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.quick-links {
+    margin-top: 10px;
+}
